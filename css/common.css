@@ -1,0 +1,23 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+}
+li{
+	list-style: none;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
